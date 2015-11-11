@@ -1,0 +1,61 @@
+
+//初始化仓库
+git init
+ 
+//添加文件到仓库
+git add 1.txt
+git commit -m "add 1.txt"
+
+//关联远程仓库
+git remote add origin git@github.com:teddykiller/gitskill
+
+//第一次推送master分支所有内容
+git push -u origin master
+
+//提交最新修改
+git push origin master
+
+//查看日志
+git log (--pretty=oneline)
+
+//版本回退
+git reset --hard HEAD^
+
+//查看命令
+git reflog
+
+//丢弃工作区修改
+git checkout -- file
+
+//丢弃暂存区修改
+git reset HEAD file
+
+//已经提交，直接版本回退
+
+//删除仓库中的文件
+rm 1.txt
+git status
+git rm 1.txt
+git commit -m "remove"
+
+//创建SSH key
+ssh-keygen -t rsa -C "email"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
