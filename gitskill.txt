@@ -33,6 +33,38 @@ git reset HEAD file
 //已经提交，直接版本回退
 
 //删除仓库中的文件
+rm gitskill.txt
+git rm test.txt
+git commit -m "remove"
+
+//SSH key
+ssh-keygen -t rsa -C "email"
+
+//克隆远程仓库
+git clone git@github.com:teddykiller/gitskill.git
+
+//创建分支，切换分支
+git checkout -b dev
+
+//查看分支
+git branch
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 rm 1.txt
 git status
 git rm 1.txt
